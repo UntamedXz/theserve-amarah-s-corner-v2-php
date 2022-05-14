@@ -20,28 +20,61 @@
         </div>
         <ul class="side-menu">
             <li><a href="#" class="active"><i class='bx bxs-dashboard icon'></i>Dashboard</a></li>
-            <li class="divider" data-text="main">Main</li>
+            <li class="divider" data-text="social">Social</li>
             <li>
-                <a href="#"><i class='bx bxs-inbox icon'></i>Elements <i class="bx bx-chevron-right icon-right"></i></a>
+                <a href="#"><i class='bx bx-edit icon'></i>Updates <i class="bx bx-chevron-right icon-right"></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="#">Alert</a></li>
-                    <li><a href="#">Badges</a></li>
-                    <li><a href="#">Breadcrumbs</a></li>
-                    <li><a href="#">Button</a></li>
+                    <li><a href="#">Insert Update</a></li>
+                    <li><a href="#">View Update</a></li>
                 </ul>
             </li>
-            <li><a href="#"><i class='bx bxs-chart icon'></i>Charts</a></li>
-            <li><a href="#"><i class='bx bxs-widget icon'></i>Widgets</a></li>
-            <li class="divider" data-text="table and Forms">Table and Forms</li>
-            <li><a href="#"><i class='bx bx-table icon'></i>Tables</a></li>
+            <li><a href="#"><i class='bx bx-chat icon'></i>Messages</a></li>
+            <li class="divider" data-text="categories">Categories</li>
             <li>
-                <a href="#"><i class='bx bx-notepad icon'></i>Forms <i class="bx bx-chevron-right icon-right"></i></a>
+                <a href="#"><i class='bx bxs-category icon'></i>Category <i class="bx bx-chevron-right icon-right"></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="#">Basic</a></li>
-                    <li><a href="#">Select</a></li>
-                    <li><a href="#">Checkbox</a></li>
-                    <li><a href="#">Radio</a></li>
+                    <li><a href="#">Insert Category</a></li>
+                    <li><a href="#">View Category</a></li>
                 </ul>
+            </li>
+            <li>
+                <a href="#"><i class='bx bxs-category-alt icon'></i>Sub Category <i
+                        class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#">Insert Sub Category</a></li>
+                    <li><a href="#">View Sub Category</a></li>
+                </ul>
+            </li>
+            <li class="divider" data-text="social">Product</li>
+            <li>
+                <a href="#"><i class='bx bx-list-ul icon'></i>Product Attributes <i class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#">Insert Product Attributes</a></li>
+                    <li><a href="#">View Product Attributes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class='bx bxs-bowl-hot icon'></i>Products <i
+                        class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#">Insert Product</a></li>
+                    <li><a href="#">View Product</a></li>
+                </ul>
+            </li>
+            <li class="divider" data-text="orders">orders</li>
+            <li>
+                <a href="#"><i class='bx bxs-cart icon'></i>Orders</a>
+            </li>
+            <li class="divider" data-text="settings">settings</li>
+            <li>
+                <a href="#"><i class='bx bxs-user-circle icon'></i>Users <i
+                        class="bx bx-chevron-right icon-right"></i></a>
+                <ul class="side-dropdown">
+                    <li><a href="#">Insert User</a></li>
+                    <li><a href="#">View User</a></li>
+                </ul>
+                <a href="#"><i class='bx bxs-palette icon'></i>Home Appearance</a>
+                <a href="#"><i class='bx bxs-cog icon'></i>Admin Settings</a>
             </li>
         </ul>
     </section>
