@@ -8,7 +8,8 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/admin.css">
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Admin</title>
     <style>
         body {
             background: url(../assets/images/background.png) no-repeat;
@@ -21,9 +22,9 @@
 </head>
 
 <body>
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="logo-details">
-            <img src="../assets/images/official_logo.png" alt="logo">
+            <img src="../assets/images/official_logo_crop.png" alt="logo">
             <h1>Amarah's Corner</h1>
         </div>
         <ul class="nav-links">
@@ -161,13 +162,47 @@
                             Staff
                         </div>
                     </div>
-                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <i class="fa-solid fa-right-from-bracket logout"></i>
+                </div>
             </li>
         </ul>
     </div>
+    <div class="home-section">
+        <div class="home-content">
+            <i class="fa-solid fa-bars"></i>
+            <span class="text">Dashboard</span>
+        </div>
     </div>
 
-    <script src="../assets/js/admin.js"></script>
+    <script>
+        let arrow = document.querySelectorAll(".arrow");
+
+        for (var i = 0; i < arrow.length; i++) {
+            arrow[i].addEventListener("click", (e) => {
+                let arrowParent = e.target.parentElement.parentElement;
+                console.log(arrowParent);
+                arrowParent.classList.toggle("showMenu")
+            });
+        }
+
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".fa-bars");
+
+        sidebarBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        });
+
+        $(window).resize(function () {
+            $screenWidthCheck = window.innerWidth || document.documentElement.clientWidth || document.body
+                .clientWidth;
+            console.log($screenWidthCheck);
+            if ($screenWidthCheck < 1025) {
+                $("#sidebar").addClass('close');
+            } else {
+                $("#sidebar").removeClass('close');
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -11,14 +11,14 @@
         <div class="left">
             <div id="search-btn" class="bx bx-search-alt-2"></div>
             <a href="#" class="bx bxs-cart"></a>
-            <a href="login.php" id="login-btn" class="bx bxs-user"></a>
+            <a href="login" id="login-btn" class="bx bxs-user"></a>
             <div id="navbar" class="bx bx-menu-alt-right"></div>
         </div>
     </div>
 </header>
 <!-- NAVIGATION BAR 2 -->
 <nav class="custom-nav">
-    <a href="index.php">home</a>
+    <a href="index">home</a>
     <a href="#menu">menu</a>
     <a href="#updates">updates</a>
     <a href="#feedbacks">feedback</a>

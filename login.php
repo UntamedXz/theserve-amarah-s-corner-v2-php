@@ -116,7 +116,7 @@
             </div>
             <input type="submit" value="sign in" class="btn">
             <p>forget password? <a href="#">click here</a></p>
-            <p>don't have an account? <a href="register.php">create one</a></p>
+            <p>don't have an account? <a href="register">create one</a></p>
         </form>
     </div>
 
