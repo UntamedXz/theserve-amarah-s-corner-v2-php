@@ -19,6 +19,14 @@
   transition: width none;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -350,3 +358,4 @@
     }
   }
 }
+// ADMIN V2

@@ -192,6 +192,9 @@
             sidebar.classList.toggle("close");
         });
 
+        $screenWidthCheck = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        if ($screenWidthCheck < 1025) { $("#sidebar").addClass('close'); } else { $("#sidebar").removeClass('close'); }
+
         $(window).resize(function () {
             $screenWidthCheck = window.innerWidth || document.documentElement.clientWidth || document.body
                 .clientWidth;
