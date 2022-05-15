@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
+
     <!-- SIDEBAR -->
     <section id="sidebar">
         <div class="logo__details">
@@ -211,6 +213,14 @@
     <!-- NAVBAR -->
 
     <!-- SCRIPT -->
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
+
     <script>
         // SEARCH FORM TOGGLE
         const searchForm = document.querySelector('.search-form');

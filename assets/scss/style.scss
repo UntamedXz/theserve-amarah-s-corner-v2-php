@@ -32,6 +32,17 @@ body {
   width: 100%;
 }
 
+// PRELOADER
+#preloader {
+    background: var(--black) url(../images/preloader.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
 // CUSTOM ALERT
 .alert {
   background: var(--black);

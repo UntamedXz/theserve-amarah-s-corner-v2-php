@@ -24,9 +24,9 @@
 </head>
 
 <body>
-    <?php include './includes/navbar.php'; ?>
+    <div id="preloader"></div>
 
-    
+    <?php include './includes/navbar.php'; ?>
 
     <?php
     if(isset($_SESSION['status']) && $_SESSION['status'] == 'no input') {
@@ -125,6 +125,13 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
     </script>
     <script src="./assets/js/script.js"></script>
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
     <script>
         document.querySelector('#close-alert').onclick = () => {
             alertbox.style.display = 'none';
