@@ -330,30 +330,30 @@
             })
         }
 
-        window.addEventListener("resize", function () {
-            if (screen.width < 768) {
-                console.log(screen.width);
-                sidebar.classList.toggle('hide');
-                allDropdwon.forEach(item => {
-                    const a = item.parentElement.querySelector('a:first-child');
-                    a.classList.remove('active');
-                    item.classList.remove('show');
-                })
-                allSideDivider.forEach(item => {
-                    item.textContent = '-'
-                })
-            } else {
-                sidebar.classList.remove('hide');
-                allDropdwon.forEach(item => {
-                    const a = item.parentElement.querySelector('a:first-child');
-                    a.classList.remove('active');
-                    item.classList.remove('show');
-                })
-                allSideDivider.forEach(item => {
-                    item.textContent = item.dataset.text;
-                })
-            }
-        })
+        // window.addEventListener("resize", function () {
+        //     if (screen.width < 768) {
+        //         console.log(screen.width);
+        //         sidebar.classList.toggle('hide');
+        //         allDropdwon.forEach(item => {
+        //             const a = item.parentElement.querySelector('a:first-child');
+        //             a.classList.remove('active');
+        //             item.classList.remove('show');
+        //         })
+        //         allSideDivider.forEach(item => {
+        //             item.textContent = '-'
+        //         })
+        //     } else {
+        //         sidebar.classList.remove('hide');
+        //         allDropdwon.forEach(item => {
+        //             const a = item.parentElement.querySelector('a:first-child');
+        //             a.classList.remove('active');
+        //             item.classList.remove('show');
+        //         })
+        //         allSideDivider.forEach(item => {
+        //             item.textContent = item.dataset.text;
+        //         })
+        //     }
+        // })
 
         // PROFILE DROPDOWN
         const profile = document.querySelector('nav .profile');
