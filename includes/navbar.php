@@ -27,7 +27,7 @@
 <!-- MOBILE NAVIGATION MENU -->
 <nav class="dropdown-nav">
     <div class="bx bxs-x-square" id="close-menu"></div>
-    <a href="index.php">home</a>
+    <a href="index">home</a>
     <a href="#menu">menu</a>
     <a href="#updates">updates</a>
     <a href="#feedbacks">feedback</a>
