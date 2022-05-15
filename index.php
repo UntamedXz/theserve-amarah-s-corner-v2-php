@@ -25,7 +25,7 @@
     <div id="preloader"></div>
 
     <?php include './includes/navbar.php'; ?>
-    
+
     <!-- BANNER SECTION -->
     <section class="banner" id="home">
         <img src="./assets/images/banner.jpg" alt="">
@@ -42,96 +42,94 @@
         <div class="menu__container">
             <div class="menu__wrapper swiper mySwiper">
                 <div class="menu__content swiper-wrapper">
-                    <div class="menu__card swiper-slide">
+                    <a href="catalog" class="menu__card swiper-slide">
                         <div class="menu__image">
-                            <a href="pizza.html">
-                                <img src="./assets/images/pizza2.png" alt="">
-                            </a>
+                            <img src="./assets/images/pizza2.png" alt="">
                         </div>
                         <div class="menu__name">
                             <h3>Pizza</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/wings.png" alt="Chicken Wings">
                         </div>
                         <div class="menu__name">
                             <h3>Chicken Wings</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/pasta.png" alt="Pasta">
                         </div>
                         <div class="menu__name">
                             <h3>Pasta</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/cheesy.png" alt="Cheesy Snacks">
                         </div>
                         <div class="menu__name">
                             <h3>Cheesy Snacks</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/milktea.png" alt="Milk Tea">
                         </div>
                         <div class="menu__name">
                             <h3>Milk Tea</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/fruit.png" alt="Fruit Tea">
                         </div>
                         <div class="menu__name">
                             <h3>Fruit Tea</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/lemonade.png" alt="Lemonade">
                         </div>
                         <div class="menu__name">
                             <h3>Lemonade</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/cheesecake.png" alt="Cheesecake Series">
                         </div>
                         <div class="menu__name">
                             <h3>Cheesecake Series</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/milkshake.png" alt="Milk Shake">
                         </div>
                         <div class="menu__name">
                             <h3>Milk Shake</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/hotCoffee.png" alt="Hot & Cold Coffee">
                         </div>
                         <div class="menu__name">
                             <h3>Hot & Cold Coffee</h3>
                         </div>
-                    </div>
-                    <div class="menu__card swiper-slide">
+                    </a>
+                    <a href="#" class="menu__card swiper-slide">
                         <div class="menu__image">
                             <img src="./assets/images/frappe.png" alt="Frappe">
                         </div>
                         <div class="menu__name">
                             <h3>Frappe</h3>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -288,7 +286,7 @@
             <input type="submit" class="load-more-feedbacks" value="LOAD MORE">
         </div>
     </section>
-    
+
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
     </script>
@@ -298,7 +296,7 @@
     <script>
         var loader = document.getElementById("preloader");
 
-        window.addEventListener("load", function() {
+        window.addEventListener("load", function () {
             loader.style.display = "none";
         })
     </script>

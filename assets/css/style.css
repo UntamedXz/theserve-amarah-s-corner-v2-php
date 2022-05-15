@@ -597,6 +597,7 @@ section {
   color: var(--black);
 }
 .menu .menu__content .menu__card {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   flex-direction: row;
