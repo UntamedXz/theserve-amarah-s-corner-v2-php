@@ -27,9 +27,14 @@
     <?php include './includes/navbar.php'; ?>
 
     <section class="catalog">
-        <h3 class="title-header">Classic Flavor</h3>
         <div class="container">
+            <!-- <div class="container-left">
+                <div class="container-left-cont">
+
+                </div>
+            </div> -->
             <div class="container-right">
+                <h3 class="title-header">Classic Flavor</h3>
                 <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
@@ -72,14 +77,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="catalog">
-        <h3 class="title-header">Special Flavor</h3>
-        <div class="container">
-            <div class="container-right">
+                <h3 class="title-header">Special Flavor</h3>
                 <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
@@ -161,10 +159,21 @@
                             <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
                         </div>
                     </div>
+                    <div id="load-more-products">
+                        <input type="submit" class="load-more-products" value="LOAD MORE">
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
+
+    <!-- <section class="catalog">
+        
+        <div class="container">
+            <div class="container-right">
+                
+            </div>
+        </div>
+    </section> -->
 
     <!-- SCRIPT -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
@@ -172,6 +181,26 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
     </script>
     <script src="./assets/js/script.js"></script>
+
+    <script>
+        var products_col = document.querySelectorAll(".catalog-box");
+        var load_more_products = document.querySelector(".load-more-products");
+
+        var current_products_col = 4;
+        load_more_products.addEventListener("click", function () {
+            for (var i = current_products_col; i < current_products_col + 4; i++) {
+                if (products_col[i]) {
+                    products_col[i].style.display = "flex";
+                }
+            }
+            current_products_col += 4;
+            if (current_products_col >=
+                products_col.length) {
+                event.target.style.display = "none";
+            }
+        });
+    </script>
+
     <script>
         var loader = document.getElementById("preloader");
 
