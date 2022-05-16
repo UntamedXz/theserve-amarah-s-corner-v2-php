@@ -789,12 +789,21 @@ section {
 }
 
 .catalog {
-  padding-top: 20px;
+  margin-top: 75px;
+}
+@media (min-width: 768px) {
+  .catalog {
+    margin-top: 134px;
+  }
+}
+.catalog .title-header {
+  margin-top: 20px;
 }
 .catalog .container {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .catalog .container .container-left {
   width: 350px;

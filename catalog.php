@@ -27,12 +27,8 @@
     <?php include './includes/navbar.php'; ?>
 
     <section class="catalog">
+        <h3 class="title-header">Classic Flavor</h3>
         <div class="container">
-            <div class="container-left">
-                <div class="container-left-cont">
-
-                </div>
-            </div>
             <div class="container-right">
                 <div class="container-right-cont">
                     <div class="catalog-box">
@@ -75,6 +71,13 @@
                             <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="title-header">Special Flavor</h3>
+        <div class="container">
+            <div class="container-right">
+                <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
                             <img src="./assets/images/pizza.png" alt="">

@@ -868,11 +868,21 @@ section {
 }
 
 .catalog {
-  padding-top: 20px;
+  @media (min-width: 768px) {
+    margin-top: 134px;
+  }
+
+  margin-top: 75px;
+
+  .title-header {
+    margin-top: 20px;
+  }
+
   .container {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     .container-left {
       width: 350px;
