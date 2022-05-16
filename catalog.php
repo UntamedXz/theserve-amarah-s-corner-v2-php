@@ -27,13 +27,135 @@
     <?php include './includes/navbar.php'; ?>
 
     <section class="catalog">
-        
-        <div class="catalog-container">
-            <div class="img-container">
-                <img src="./assets/images/pizza2.png" alt="">
+        <div class="container">
+            <div class="container-left">
+                <div class="container-left-cont">
+
+                </div>
             </div>
-            <div class="details">
-                <h3></h3>
+            <div class="container-right">
+                <div class="container-right-cont">
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Ham & Cheese</h5>
+                            <h5 class="price">P199</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Hawaiian Pizza</h5>
+                            <h5 class="price">P199</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Pepperoni</h5>
+                            <h5 class="price">P199</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Beef & Mushroom</h5>
+                            <h5 class="price">P199</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Beef & Mushroom Overload</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Pepperoni Overload</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Creamcheese Supreme</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Spinach Overload</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>All Meat Pizza</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Beef & Bacon Overload</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Bacon & Ham</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="img-cont">
+                            <img src="./assets/images/pizza.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h5>Triple Cheese</h5>
+                            <h5 class="price">P249</h5>
+                            <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -34,13 +34,13 @@ body {
 
 // PRELOADER
 #preloader {
-    background: var(--black) url(../images/preloader.gif) no-repeat center center;
-    background-size: 30vh;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 11;
+  background: var(--black) url(../images/preloader.gif) no-repeat center center;
+  background-size: 30vh;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11;
 }
 
 // CUSTOM ALERT
@@ -595,12 +595,12 @@ body {
 
 // SECTION STYLE
 section {
-  padding: 0 3%;
-  margin-bottom: 30px;
-
   @media (min-width: 768px) {
     padding: 0 6%;
   }
+
+  padding: 0 3%;
+  margin-bottom: 30px;
 }
 
 // BANNER STYLE
@@ -862,6 +862,97 @@ section {
         border-color: var(--primary);
         color: var(--black);
         border: 1px solid var(--primary);
+      }
+    }
+  }
+}
+
+.catalog {
+  padding-top: 20px;
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container-left {
+      width: 350px;
+
+      .container-left-cont {
+        background: var(--black);
+        width: 100%;
+        height: 600px;
+        border-radius: 3px;
+      }
+    }
+
+    .container-right {
+      width: 100%;
+
+      .container-right-cont {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+
+        .catalog-box {
+          background: var(--black);
+          padding: 15px;
+          width: 260px;
+          border-radius: 3px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          .img-cont {
+            width: 100%;
+            height: 150px;
+            border-radius: 3px;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 3px;
+
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+
+          .details {
+            text-align: center;
+            color: #fff;
+
+            h5 {
+              font-weight: 600;
+              text-transform: capitalize;
+              color: #fff;
+            }
+
+            .price {
+              font-weight: 700;
+              color: var(--primary);
+            }
+
+            .order-btn {
+              margin-top: 5px;
+              padding: 3px 8px;
+              background: var(--primary);
+              font-weight: 700;
+              border: none;
+              outline: none;
+              border-radius: 3px;
+
+              i {
+                padding-right: 5px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
       }
     }
   }

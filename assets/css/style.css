@@ -788,4 +788,82 @@ section {
   border: 1px solid var(--primary);
 }
 
+.catalog {
+  padding-top: 20px;
+}
+.catalog .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.catalog .container .container-left {
+  width: 350px;
+}
+.catalog .container .container-left .container-left-cont {
+  background: var(--black);
+  width: 100%;
+  height: 600px;
+  border-radius: 3px;
+}
+.catalog .container .container-right {
+  width: 100%;
+}
+.catalog .container .container-right .container-right-cont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.catalog .container .container-right .container-right-cont .catalog-box {
+  background: var(--black);
+  padding: 15px;
+  width: 260px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.catalog .container .container-right .container-right-cont .catalog-box .img-cont {
+  width: 100%;
+  height: 150px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.catalog .container .container-right .container-right-cont .catalog-box .img-cont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.catalog .container .container-right .container-right-cont .catalog-box .img-cont img:hover {
+  transform: scale(1.1);
+}
+.catalog .container .container-right .container-right-cont .catalog-box .details {
+  text-align: center;
+  color: #fff;
+}
+.catalog .container .container-right .container-right-cont .catalog-box .details h5 {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+.catalog .container .container-right .container-right-cont .catalog-box .details .price {
+  font-weight: 700;
+  color: var(--primary);
+}
+.catalog .container .container-right .container-right-cont .catalog-box .details .order-btn {
+  margin-top: 5px;
+  padding: 3px 8px;
+  background: var(--primary);
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.catalog .container .container-right .container-right-cont .catalog-box .details .order-btn i {
+  padding-right: 5px;
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=style.css.map */

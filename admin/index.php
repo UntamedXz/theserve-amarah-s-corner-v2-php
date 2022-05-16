@@ -111,7 +111,7 @@
                 </div>
                 <span class="divider"></span>
                 <div class="profile">
-                    <img src="../assets/images/B612_20220322_202642_720-min.jpg" alt="profile-img">
+                    <img src="../assets/images/Eramie.jpg">
                     <ul class="profile-link">
                         <li><a href="#"><i class="bx bxs-user-circle icon"></i>Profile</a></li>
                         <li><a href="#"><i class="bx bxs-cog"></i>Settings</a></li>
