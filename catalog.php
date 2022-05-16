@@ -159,9 +159,9 @@
                             <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
                         </div>
                     </div>
-                    <div id="load-more-products">
-                        <input type="submit" class="load-more-products" value="LOAD MORE">
-                    </div>
+                </div>
+                <div id="load-more-products">
+                    <input type="submit" class="load-more-products" value="LOAD MORE">
                 </div>
             </div>
     </section>
