@@ -789,12 +789,8 @@ section {
 }
 
 .catalog {
-  margin-top: 75px;
-}
-@media (min-width: 768px) {
-  .catalog {
-    margin-top: 134px;
-  }
+  padding-top: 1px;
+  margin-bottom: 10px;
 }
 .catalog .title-header {
   margin-top: 20px;

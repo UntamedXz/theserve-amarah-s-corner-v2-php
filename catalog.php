@@ -74,6 +74,9 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="catalog">
         <h3 class="title-header">Special Flavor</h3>
         <div class="container">
             <div class="container-right">
