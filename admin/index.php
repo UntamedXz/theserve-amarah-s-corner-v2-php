@@ -122,6 +122,8 @@
         </nav>
         <!-- NAVBAR -->
 
+        <div id="overlay" class="hide"></div>
+
         <!-- MAIN -->
         <main>
             <h1 class="title">Dashboard</h1>
@@ -234,7 +236,6 @@
         // SIDEBAR DROPDOWN
         const allDropdwon = document.querySelectorAll('#sidebar .side-dropdown');
         const sidebar = document.getElementById('sidebar');
-
         allDropdwon.forEach(item => {
             const a = item.parentElement.querySelector('a:first-child');
             a.addEventListener('click', function (e) {
@@ -257,6 +258,7 @@
         // SIDEBAR COLLAPSE
         const toggleSidebar = document.querySelector('nav .toggle-sidebar');
         const allSideDivider = document.querySelectorAll('#sidebar .divider')
+        const overlay = document.getElementById('overlay');
 
         if (sidebar.classList.contains('hide')) {
             allSideDivider.forEach(item => {
@@ -275,6 +277,7 @@
 
         toggleSidebar.addEventListener('click', function () {
             sidebar.classList.toggle('hide');
+            overlay.classList.toggle('active');
 
             if (sidebar.classList.contains('hide')) {
                 allSideDivider.forEach(item => {
@@ -316,6 +319,15 @@
                     item.textContent = item.dataset.text;
                 })
             }
+        })
+
+        overlay.addEventListener('click', function () {
+            sidebar.classList.toggle('hide');
+            overlay.classList.remove('active');
+            searchForm.classList.remove('active');
+            allSideDivider.forEach(item => {
+                item.textContent = '-'
+            })
         })
 
         if (screen.width < 768) {

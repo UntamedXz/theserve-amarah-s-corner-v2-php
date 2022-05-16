@@ -41,6 +41,18 @@ body {
   z-index: 1000;
 }
 
+#overlay {
+  background: transparent;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+#overlay.active {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -263,12 +275,22 @@ li {
 #content nav .right {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
+}
+@media (min-width: 320px) {
+  #content nav .right {
+    gap: 25px;
+  }
 }
 #content nav .right .icons {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+}
+@media (min-width: 350px) {
+  #content nav .right .icons {
+    gap: 25px;
+  }
 }
 @media (min-width: 768px) {
   #content nav .right .icons #search-btn {
