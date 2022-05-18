@@ -69,30 +69,10 @@
     </div>';
     unset($_SESSION['status']);
     }
-    if(isset($_SESSION['status']) && $_SESSION['status'] == 'Email already exist!') {
+    if(isset($_SESSION['status']) && $_SESSION['status'] == 'no email') {
     echo '<div class="alert">
         <span class="fa-solid fa-circle-exclamation"></span>
-        <span class="msg">Email already exist!</span>
-        <span class="close-btn" id="close-alert">
-            <span class="fas fa-times"></span>
-        </span>
-    </div>';
-    unset($_SESSION['status']);
-    }
-    if(isset($_SESSION['status']) && $_SESSION['status'] == 'Registered Successfully!') {
-    echo '<div class="alert">
-        <span class="fa-solid fa-circle-exclamation"></span>
-        <span class="msg">Registered Successfully!</span>
-        <span class="close-btn" id="close-alert">
-            <span class="fas fa-times"></span>
-        </span>
-    </div>';
-    unset($_SESSION['status']);
-    }
-    if(isset($_SESSION['status']) && $_SESSION['status'] == 'Something went wrong!') {
-    echo '<div class="alert">
-        <span class="fa-solid fa-circle-exclamation"></span>
-        <span class="msg">Something went wrong!</span>
+        <span class="msg">Email not registered!</span>
         <span class="close-btn" id="close-alert">
             <span class="fas fa-times"></span>
         </span>
@@ -103,18 +83,18 @@
 
     <!-- LOGIN FORM -->
     <div class="login-form-container">
-        <form action="">
+        <form action="./login-processing.php" method="POST">
             <a href="#" class="logo"><img src="./assets/images/official_logo.png" alt=""></a>
             <h3>sign in</h3>
             <span>email</span>
-            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <input type="email" name="email" class="box" placeholder="enter your email">
             <span>password</span>
-            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <input type="password" name="password" class="box" placeholder="enter your password">
             <div class="checkbox">
-                <input type="checkbox" name="" id="remember-me">
+                <input type="checkbox" name="rem" id="remember-me">
                 <label for="remember-me">remember me</label>
             </div>
-            <input type="submit" value="sign in" class="btn">
+            <input type="submit" name="login" value="sign in" class="btn">
             <p>forget password? <a href="#">click here</a></p>
             <p>don't have an account? <a href="register">create one</a></p>
         </form>
@@ -132,6 +112,11 @@
         window.addEventListener("load", function () {
             loader.style.display = "none";
         })
+    </script>
+    <script>
+        document.querySelector('#close-alert').onclick = () => {
+            alertbox.style.display = 'none';
+        }
     </script>
 </body>
 

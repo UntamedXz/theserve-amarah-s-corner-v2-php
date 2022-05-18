@@ -71,6 +71,7 @@ body {
   .msg {
     padding: 0 30px;
     font-size: 14px;
+    text-align: center;
   }
 
   .close-btn {
@@ -869,11 +870,8 @@ section {
 
 // CATALOG
 .catalog {
-  padding-top: 1px;
-  margin-bottom: 10px;
-
+  padding-top: 20px;
   .container {
-    padding-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -965,7 +963,11 @@ section {
           &:nth-child(1),
           &:nth-child(2),
           &:nth-child(3),
-          &:nth-child(4) {
+          &:nth-child(4),
+          &:nth-child(5),
+          &:nth-child(6),
+          &:nth-child(7),
+          &:nth-child(8) {
             display: flex;
           }
         }
@@ -994,5 +996,96 @@ section {
         }
       }
     }
+  }
+}
+
+// CART PAGE
+.cart {
+  @media (min-width: 768px) {
+    padding: 0 10%;
+    padding-top: 20px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 0 20%;
+    padding-top: 20px;
+  }
+  
+  padding-top: 20px;
+  .cart-container {
+    background: var(--black);
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    color: var(--primary);
+    padding: 35px;
+
+    h1 {
+      font-size: 31px;
+      margin-bottom: 40px;
+    }
+
+    .table {
+      table {
+        border: 1px solid var(--primary);
+        thead {
+          tr {
+            th {
+              background-color: var(--primary);
+              color: var(--black);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .checkout {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+    .container {
+      width: 50%;
+      height: 100%;
+      background-color: var(--black);
+      border-radius: 3px;
+
+      h3{
+        background-color: var(--primary);
+        color: var(--black);
+        padding: 3px 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+
+      .flex {
+        color: var(--primary);
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+      }
+
+      hr {
+        color: #ffcd60;
+        margin: 15px 10px;
+      }
+    }
+  }
+
+  .dataTables_filter {
+    margin-bottom: 10px;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    min-width: 5px;
+    padding: 2px 13px;
+    color: var(--primary) !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    padding-top: 10px;
   }
 }

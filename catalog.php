@@ -27,6 +27,7 @@
     <?php include './includes/navbar.php'; ?>
 
     <section class="catalog">
+        <h3 class="title-header">Pizza</h3>
         <div class="container">
             <!-- <div class="container-left">
                 <div class="container-left-cont">
@@ -34,7 +35,6 @@
                 </div>
             </div> -->
             <div class="container-right">
-                <h3 class="title-header">Classic Flavor</h3>
                 <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
@@ -76,9 +76,6 @@
                             <button class="order-btn"><i class='bx bxs-cart'></i>ORDER NOW</button>
                         </div>
                     </div>
-                </div>
-                <h3 class="title-header">Special Flavor</h3>
-                <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
                             <img src="./assets/images/pizza.png" alt="">
@@ -186,9 +183,9 @@
         var products_col = document.querySelectorAll(".catalog-box");
         var load_more_products = document.querySelector(".load-more-products");
 
-        var current_products_col = 4;
+        var current_products_col = 8;
         load_more_products.addEventListener("click", function () {
-            for (var i = current_products_col; i < current_products_col + 4; i++) {
+            for (var i = current_products_col; i < current_products_col + 8; i++) {
                 if (products_col[i]) {
                     products_col[i].style.display = "flex";
                 }
