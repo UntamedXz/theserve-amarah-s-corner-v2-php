@@ -19,16 +19,16 @@
 <!-- NAVIGATION BAR 2 -->
 <nav class="custom-nav">
     <a href="index">home</a>
-    <a href="#menu">menu</a>
-    <a href="#updates">updates</a>
-    <a href="#feedbacks">feedback</a>
+    <a href="index#menu">menu</a>
+    <a href="index#updates">updates</a>
+    <a href="index#feedbacks">feedback</a>
     <a href="#">contact</a>
 </nav>
 <!-- MOBILE NAVIGATION MENU -->
 <nav class="dropdown-nav">
     <div class="bx bxs-x-square" id="close-menu"></div>
     <a href="index">home</a>
-    <a href="#menu">menu</a>
+    <a href="index#menu">menu</a>
     <a href="#updates">updates</a>
     <a href="#feedbacks">feedback</a>
     <a href="#">contact</a>

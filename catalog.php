@@ -38,7 +38,8 @@
                 <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409014463/photo/menueditor_item_edd108bcfc3b4d0aa7421c7f2c00c69c_1647415469319271604.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Ham & Cheese</h5>
@@ -48,7 +49,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095410015522/photo/menueditor_item_5955afb8c1964c85a38328cd9eaa9ccb_1647089542791428327.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Hawaiian Pizza</h5>
@@ -58,7 +60,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409049009/photo/menueditor_item_eb2e923cfd154ab6936d4f30b7e16893_1647413475686811532.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Pepperoni</h5>
@@ -68,7 +71,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409055210/photo/menueditor_item_113a2ca62d704b7f95fe3b786299eaf6_1647415409774154060.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Beef & Mushroom</h5>
@@ -78,7 +82,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.6435-9/90134784_655130878580348_6499163453112975360_n.jpg?stp=dst-jpg_p960x960&_nc_cat=101&ccb=1-7&_nc_sid=36a2c1&_nc_ohc=TDKCCIrSdWQAX9uxCJv&_nc_ht=scontent.fmnl8-1.fna&oh=00_AT96eptllg9bkNzhKXnakBQlRrQ7AUcKWq7yZVOY3hMU-Q&oe=62AB2796"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Beef & Mushroom Overload</h5>
@@ -88,7 +93,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409049009/photo/menueditor_item_eb2e923cfd154ab6936d4f30b7e16893_1647413475686811532.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Pepperoni Overload</h5>
@@ -98,7 +104,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095408075857/photo/menueditor_item_be64f4e50304414584751b6a9b9e0151_1647414095168088878.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Creamcheese Supreme</h5>

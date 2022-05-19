@@ -895,80 +895,210 @@ section {
   border: 1px solid var(--primary);
 }
 
-.cart {
-  padding-top: 20px;
+.cart .wrapper {
+  margin: 0 auto;
+}
+@media (min-width: 1025px) {
+  .cart .wrapper {
+    padding: 0 10%;
+  }
+}
+.cart .wrapper h1 {
+  font-size: 31px;
+  padding: 15px 0;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+@media (min-width: 1025px) {
+  .cart .wrapper h1 {
+    text-align: left;
+  }
+}
+.cart .wrapper hr {
+  margin: 0 auto;
+  width: 40px;
+  border: 3px solid var(--black);
+  margin-bottom: 20px;
+}
+@media (min-width: 1025px) {
+  .cart .wrapper hr {
+    margin: unset;
+    margin-bottom: 20px;
+  }
+}
+.cart .wrapper .project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 1025px) {
+  .cart .wrapper .project {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.cart .wrapper .project .shop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 1025px) {
+  .cart .wrapper .project .shop {
+    width: 70%;
+  }
+}
+.cart .wrapper .project .shop .box {
+  background-color: var(--black);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(7, 5, 6, 0.219) 0 7px 29px 0;
+  transition: all 0.6s ease;
+}
+.cart .wrapper .project .shop .box .img {
+  width: 40%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 @media (min-width: 768px) {
-  .cart {
-    padding: 0 10%;
-    padding-top: 20px;
+  .cart .wrapper .project .shop .box .img {
+    width: 30%;
   }
 }
-@media (min-width: 992px) {
-  .cart {
-    padding: 0 20%;
-    padding-top: 20px;
+.cart .wrapper .project .shop .box .content {
+  width: 60%;
+  flex: 1;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .cart .wrapper .project .shop .box .content {
+    width: 70%;
   }
 }
-.cart .cart-container {
-  background: var(--black);
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  color: var(--primary);
-  padding: 35px;
+.cart .wrapper .project .shop .box .content h3 {
+  font-weight: 600;
 }
-.cart .cart-container h1 {
-  font-size: 31px;
-  margin-bottom: 40px;
-}
-.cart .cart-container .table table {
-  border: 1px solid var(--primary);
-}
-.cart .cart-container .table table thead tr th {
-  background-color: var(--primary);
-  color: var(--black);
-}
-.cart .checkout {
-  margin-top: 20px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: end;
-}
-.cart .checkout .container {
-  width: 50%;
-  height: 100%;
-  background-color: var(--black);
-  border-radius: 3px;
-}
-.cart .checkout .container h3 {
-  background-color: var(--primary);
-  color: var(--black);
-  padding: 3px 10px;
+.cart .wrapper .project .shop .box .content h5 {
+  font-weight: 400;
   text-transform: uppercase;
-  font-weight: 800;
-}
-.cart .checkout .container .flex {
+  margin-bottom: 10px;
   color: var(--primary);
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
 }
-.cart .checkout .container hr {
-  color: #ffcd60;
-  margin: 15px 10px;
-}
-.cart .dataTables_filter {
+.cart .wrapper .project .shop .box .content h4 {
+  font-weight: 500;
   margin-bottom: 10px;
 }
-.cart .dataTables_wrapper .dataTables_paginate .paginate_button {
-  min-width: 5px;
-  padding: 2px 13px;
-  color: var(--primary) !important;
+.cart .wrapper .project .shop .box .content .qty-remove {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
-.cart .dataTables_wrapper .dataTables_paginate {
-  padding-top: 10px;
+@media (min-width: 768px) {
+  .cart .wrapper .project .shop .box .content .qty-remove {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.cart .wrapper .project .shop .box .content .qty-remove .unit {
+  margin-right: 5px;
+}
+.cart .wrapper .project .shop .box .content .qty-remove .unit input {
+  margin-left: 5px;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 177, 8, 0.372);
+  outline: none;
+  border: none;
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+}
+.cart .wrapper .project .shop .box .content .qty-remove .btn-area {
+  padding: 5px 10px;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  text-align: center;
+  color: var(--black);
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.6s ease;
+}
+.cart .wrapper .project .shop .box .content .qty-remove .btn-area i {
+  margin-right: 5px;
+}
+.cart .wrapper .project .shop .box .content .qty-remove .btn-area:hover {
+  background-color: var(--black);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+.cart .wrapper .project .shop .box:hover {
+  transform: scale(1.02);
+}
+.cart .wrapper .project .right-bar {
+  width: 100%;
+  background-color: var(--black);
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all 0.6s ease;
+}
+@media (min-width: 768px) {
+  .cart .wrapper .project .right-bar {
+    align-self: flex-end;
+    width: 50%;
+  }
+}
+@media (min-width: 1025px) {
+  .cart .wrapper .project .right-bar {
+    width: 30%;
+    align-self: flex-start;
+  }
+}
+.cart .wrapper .project .right-bar hr {
+  width: unset;
+  border: 1px solid var(--primary);
+  margin-top: 5px;
+}
+.cart .wrapper .project .right-bar p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cart .wrapper .project .right-bar a {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--black);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 800;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.cart .wrapper .project .right-bar a i {
+  margin-right: 5px;
+}
+.cart .wrapper .project .right-bar a:hover {
+  border: 1px solid var(--primary);
+  background-color: var(--black);
+  color: var(--primary);
+}
+.cart .wrapper .project .right-bar:hover {
+  transform: scale(1.02);
 }
 
 /*# sourceMappingURL=style.css.map */

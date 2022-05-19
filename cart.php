@@ -14,28 +14,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
 
-    </head>
-
-    
+</head>
 
 
-    <script>
-        $(document).ready( function () {
-        $('#table_id').DataTable();
-        } );
-    </script>
 
-    <title>Amarah's Corner - BF Resort Las Piñas</title>
 
-    <style>
-        body {
-            background: url(./assets/images/background.png) no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            height: 100%;
-        }
-    </style>
+<script>
+    $(document).ready(function () {
+        $('#table_id').dataTable({
+            responsive: true,
+            scrollX: true,
+        });
+    });
+</script>
+</script>
+
+
+<title>Amarah's Corner - BF Resort Las Piñas</title>
+
+<style>
+    body {
+        background: url(./assets/images/background.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+    }
+</style>
 </head>
 
 <body>
@@ -44,54 +49,81 @@
     <?php include './includes/navbar.php'; ?>
 
     <section class="cart">
-        <div class="cart-container">
+        <div class="wrapper">
             <h1>Shopping Cart</h1>
-            <div class="table">
-                <table id="table_id" class="display">
-                    <thead>
-                        <tr>
-                            <th>IMAGE</th>
-                            <th>PRODUCT</th>
-                            <th>PRICE</th>
-                            <th>QUANTITY</th>
-                            <th>TOTAL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img style="width: 120px;" src="./assets/images/pizza.png" alt=""></td>
-                            <td>Ham & Cheese</td>
-                            <td>P199</td>
-                            <td>5</td>
-                            <td>P995</td>
-                        </tr>
-                        <tr>
-                            <td><img style="width: 120px;" src="./assets/images/pizza.png" alt=""></td>
-                            <td>Beef & Mushroom Overload</td>
-                            <td>P249</td>
-                            <td>3</td>
-                            <td>P747</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+            <hr>
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <div class="img"
+                            style="background:
+                            url(https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409014463/photo/menueditor_item_edd108bcfc3b4d0aa7421c7f2c00c69c_1647415469319271604.jpg)
+                            no-repeat;
+                            background-size: cover;
+                            background-position: center;">
+                        </div>
+                        <div class="content">
+                            <h3>Ham & Cheese</h3>
+                            <h5>Classic Flavor</h5>
+                            <h4>Price <strong>P199</strong></h4>
+                            <div class="qty-remove">
+                                <p class="unit">Quantity: <input value="2"></p>
+                                <p class="btn-area">
+                                    <i class='bx bxs-trash'></i>
+                                    <span class="btn-2">Remove</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img" style="background:
+                            url(https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095410015522/photo/menueditor_item_5955afb8c1964c85a38328cd9eaa9ccb_1647089542791428327.jpg)
+                            no-repeat;
+                            background-size: cover;
+                            background-position: center;">
+                        </div>
+                        <div class="content">
+                            <h3>Hawaiian Pizza</h3>
+                            <h5>Classic Flavor</h5>
+                            <h4>Price <strong>P199</strong></h4>
+                            <div class="qty-remove">
+                                <p class="unit">Quantity: <input value="2"></p>
+                                <p class="btn-area">
+                                    <i class='bx bxs-trash'></i>
+                                    <span class="btn-2">Remove</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img" style="background:
+                            url(https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409055210/photo/menueditor_item_113a2ca62d704b7f95fe3b786299eaf6_1647415409774154060.jpg)
+                            no-repeat;
+                            background-size: cover;
+                            background-position: center;">
+                        </div>
+                        <div class="content">
+                            <h3>Beef & Mushroom Overload</h3>
+                            <h5>Special Flavor</h5>
+                            <h4>Price <strong>P199</strong></h4>
+                            <div class="qty-remove">
+                                <p class="unit">Quantity: <input value="2"></p>
+                                <p class="btn-area">
+                                    <i class='bx bxs-trash'></i>
+                                    <span class="btn-2">Remove</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-bar">
+                    <p><span>Subtotal</span> <span><strong>P1000</strong></span></p>
+                    <hr>
+                    <p><span>Shipping</span> <span><strong>P100</strong></span></p>
+                    <hr>
+                    <p><span>Total</span> <span><strong>P1100</strong></span></p>
 
-        <div class="checkout">
-            <div class="container">
-                <h3>Cart Total</h3>
-                <div class="flex subtotal">
-                    <h4>Sub Total</h4>
-                    <h4>P1,742.00</h4>
-                </div>
-                <div class="flex shipping">
-                    <h4>Shipping</h4>
-                    <h4>P150.00</h4>
-                </div>
-                <hr>
-                <div class="flex total">
-                    <h4>Total</h4>
-                    <h4>P1,892.00</h4>
+                    <a href="#"><i class='bx bxs-cart'></i>Proceed to Checkout</a>
                 </div>
             </div>
         </div>
