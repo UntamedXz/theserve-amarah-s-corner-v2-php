@@ -57,7 +57,7 @@
                     <div class="box">
                         <div class="img"
                             style="background:
-                            url(https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409014463/photo/menueditor_item_edd108bcfc3b4d0aa7421c7f2c00c69c_1647415469319271604.jpg)
+                            url(https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095410029702/photo/menueditor_item_4b7424ad46314b1d93304f29b30ed091_1647089506293598067.jpg)
                             no-repeat;
                             background-size: cover;
                             background-position: center;">
@@ -105,7 +105,7 @@
                         <div class="content">
                             <h3>Beef & Mushroom Overload</h3>
                             <h5>Special Flavor</h5>
-                            <h4>Price <strong>P199</strong></h4>
+                            <h4>Price <strong>P249</strong></h4>
                             <div class="qty-remove">
                                 <p class="unit">Quantity: <input value="2"></p>
                                 <p class="btn-area">
@@ -117,11 +117,11 @@
                     </div>
                 </div>
                 <div class="right-bar">
-                    <p><span>Subtotal</span> <span><strong>P1000</strong></span></p>
+                    <p><span>Subtotal</span> <span><strong>P1,294.00</strong></span></p>
                     <hr>
                     <p><span>Shipping</span> <span><strong>P100</strong></span></p>
                     <hr>
-                    <p><span>Total</span> <span><strong>P1100</strong></span></p>
+                    <p><span>Total</span> <span><strong>P1,394.00</strong></span></p>
 
                     <a href="#"><i class='bx bxs-cart'></i>Proceed to Checkout</a>
                 </div>

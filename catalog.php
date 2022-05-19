@@ -38,7 +38,7 @@
                 <div class="container-right-cont">
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409014463/photo/menueditor_item_edd108bcfc3b4d0aa7421c7f2c00c69c_1647415469319271604.jpg"
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095410029702/photo/menueditor_item_4b7424ad46314b1d93304f29b30ed091_1647089506293598067.jpg"
                                 alt="">
                         </div>
                         <div class="details">
@@ -115,7 +115,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095408067287/photo/menueditor_item_2ace809c71bd45aab910eb54c238d83a_1647414974613131637.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Spinach Overload</h5>
@@ -125,7 +126,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://static.wixstatic.com/media/d604a2_5747505324b44c47b2b7ff4ee04a3ed2~mv2.jpg/v1/fill/w_500,h_333,al_c,q_85,usm_0.66_1.00_0.01/d604a2_5747505324b44c47b2b7ff4ee04a3ed2~mv2.webp"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>All Meat Pizza</h5>
@@ -135,7 +137,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://static.wixstatic.com/media/d604a2_f84d1938cf954a2c829134f8445a3bf7~mv2.jpg/v1/fill/w_500,h_333,al_c,q_85,usm_0.66_1.00_0.01/d604a2_f84d1938cf954a2c829134f8445a3bf7~mv2.webp"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Beef & Bacon Overload</h5>
@@ -145,7 +148,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095409014463/photo/menueditor_item_edd108bcfc3b4d0aa7421c7f2c00c69c_1647415469319271604.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Bacon & Ham</h5>
@@ -155,7 +159,8 @@
                     </div>
                     <div class="catalog-box">
                         <div class="img-cont">
-                            <img src="./assets/images/pizza.png" alt="">
+                            <img src="https://d1sag4ddilekf6.azureedge.net/compressed/items/PHITE20220114095408090996/photo/menueditor_item_5168dee694f14130ac913839f85a2112_1647413999312417399.jpg"
+                                alt="">
                         </div>
                         <div class="details">
                             <h5>Triple Cheese</h5>
